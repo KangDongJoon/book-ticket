@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: bookticket
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+  datasource:
+    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/bookticket
+    username: ${DB_USER:root}
+    password: ${DB_PASSWORD:}
+
+server:
+  port: ${SERVER_PORT:8080}
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+logging:
+  level:
+    org.springframework: DEBUG
