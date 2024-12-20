@@ -1,6 +1,6 @@
 package com.play.bookticket.config;
 
-import com.play.bookticket.common.entity.util.JwtUtil;
+import com.play.bookticket.common.util.util.JwtUtil;
 import com.play.bookticket.domain.auth.entity.AuthUser;
 import com.play.bookticket.domain.user.enums.UserRole;
 import io.jsonwebtoken.Claims;
