@@ -1,4 +1,4 @@
-package com.play.bookticket.common.entity.util;
+package com.play.bookticket.common.util.util;
 
 import com.play.bookticket.domain.user.enums.UserRole;
 import io.jsonwebtoken.Claims;
